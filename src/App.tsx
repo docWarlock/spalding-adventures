@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Game from "./components/Game";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      Literacy-Lagoon
+    <div>
+      <h1>Spalding Adventures</h1>
+      <Game />
     </div>
   );
-}
+};
 
 export default App;

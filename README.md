@@ -1,9 +1,11 @@
 # To Do for Spalding Adventures
+
 ### 1. Set Up Your Development Environment
 
-- Set up a new React TypeScript project using Create React App.
-- Install necessary dependencies such as Phaser for game development.
-- Create the basic file structure for your project.
+- ~~Set up a new React TypeScript project using Create React App.~~
+- ~~make sure eslint and prettier are working~~
+- ~~Install necessary dependencies such as Phaser for game development.~~
+- ~~Create the basic file structure for your project.~~
 
 ### 2. Create the Game World and Player
 
