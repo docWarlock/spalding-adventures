@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# To Do for Spalding Adventures
+### 1. Set Up Your Development Environment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Set up a new React TypeScript project using Create React App.
+- Install necessary dependencies such as Phaser for game development.
+- Create the basic file structure for your project.
 
-## Available Scripts
+### 2. Create the Game World and Player
 
-In the project directory, you can run:
+- Set up the game scene using Phaser.
+- Create a character sprite for the hero.
+- Implement player movement controls.
 
-### `npm start`
+### 3. Implement Randomly Generated Dungeons
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Design different room layouts and biomes.
+- Implement a dungeon generation algorithm (e.g., random placement of rooms, hallways, etc.).
+- Create transitions between rooms.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 4. Implement Game Levels and Difficulty Modes
 
-### `npm test`
+- Define different difficulty levels (easy, medium, hard, endless).
+- Configure word generation based on difficulty levels and Spalding spelling rules.
+- Implement a system to track progress through levels.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. Implement Question System
 
-### `npm run build`
+- Display a word with missing letters.
+- Provide options for the missing letters.
+- Add sound effects for correct and incorrect answers.
+- Determine the logic for generating questions based on difficulty levels.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 6. Handle Player Progression
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Implement a scoring system.
+- Move the player to the next room upon answering correctly.
+- Handle player failure (e.g., losing lives in endless mode).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 7. Implement Boss Battles
 
-### `npm run eject`
+- Design boss characters and their behavior.
+- Implement a system to trigger boss battles after a certain number of rooms.
+- Reward the player for defeating a boss (extra life, skip a room).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 8. Enhance Visuals and User Interface
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Add visual elements for obstacles, biomes, and rooms.
+- Create a user interface for displaying the player's score, lives, and current level.
+- Add animations and visual effects.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 9. Implement Endless Mode
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Implement a system to continue the game until all lives are lost.
+- Mix questions from different difficulty levels.
 
-## Learn More
+### 10. Testing and Debugging
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Test the game thoroughly to ensure functionality.
+- Debug any issues and optimize performance.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 11. Polish and Additional Features
+
+- Add sound effects and background music.
+- Polish the game's visuals and user interface.
+- Consider additional features like a leaderboard or achievements.
+
+### 12. Deployment
+
+- Prepare your game for deployment.
+- Choose a platform to host your game.
+
+### 13. Documentation
+
+- Document your code and the overall structure of the game.
+- Provide instructions on how to play and any other relevant information.
