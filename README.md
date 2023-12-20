@@ -9,9 +9,10 @@
 
 ### 2. Create the Game World and Player
 
-- Set up the game scene using Phaser.
-- Create a character sprite for the hero.
-- Implement player movement controls.
+- ~~Set up the game scene using Phaser for a top down 2D zelda-like action adventure game~~
+- ~~Create a character sprite for the hero. (using just a yellow circle for now)~~
+- ~~Create a background image. (using just a solid grey background for now)~~
+- ~~Implement player movement controls.~~
 
 ### 3. Implement Randomly Generated Dungeons
 
